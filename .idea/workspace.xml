@@ -3,6 +3,390 @@
   <component name="ChangeListManager">
     <list default="true" id="7d2fd89f-a4a6-41b7-a1e6-face30b7e76a" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/bytbox/golint/lex.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/bytbox/golint/lex.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/bytbox/golint/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/bytbox/golint/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests/process/process.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests/process/process.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests/process/process_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests/process/process_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests/subtests.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests/subtests.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/gotests_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/goparser/goparser.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/goparser/goparser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/input/input.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/input/input.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/models/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/output/output.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/output/output.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/render/bindata/esc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/render/bindata/esc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/render/bindata/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/render/bindata/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/render/render.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/cweill/gotests/internal/render/render.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/cmd/dlv/cmds/commands.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/cmd/dlv/cmds/commands.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/cmd/dlv/dlv_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/cmd/dlv/dlv_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/cmd/dlv/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/cmd/dlv/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/config/split.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/config/split.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/config/split_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/config/split_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/dwarfbuilder/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/dwarfbuilder/builder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/dwarfbuilder/info.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/dwarfbuilder/info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/dwarfbuilder/loc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/dwarfbuilder/loc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/entries.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/entries.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/entries_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/entries_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/expression_constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/expression_constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/parser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/table.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/frame/table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/godwarf/sections.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/godwarf/sections.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/godwarf/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/godwarf/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/line/line_parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/line/line_parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/line/line_parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/line/line_parser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/line/state_machine.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/line/state_machine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/line/state_machine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/line/state_machine_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/op/op.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/op/op.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/op/op_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/op/op_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/op/opcodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/op/opcodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/op/regs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/op/regs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/reader/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/reader/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/reader/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/reader/variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/util/buf.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/util/buf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/util/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/util/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/dwarf/util/util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/goversion/go_version.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/goversion/go_version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/goversion/version_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/goversion/version_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/logflags/logflags.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/logflags/logflags.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/arch.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/arch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/bininfo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/bininfo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/breakpoints.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/breakpoints.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/core_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/core_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/linux_amd64_core.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/linux_amd64_core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/minidump/fileflags_string.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/minidump/fileflags_string.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/minidump/minidump.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/minidump/minidump.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/windows_amd64_minidump.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/core/windows_amd64_minidump.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/disasm.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/disasm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/disasm_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/disasm_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/dwarf_expr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/dwarf_expr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/eval.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/eval.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/fncall.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/fncall.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/gdbserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/gdbserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/gdbserver_conn.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/gdbserver_conn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/gdbserver_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/gdbserver_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/gdbserver_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/gdbserver_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/rr.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/rr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/rr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/gdbserial/rr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/linutil/auxv.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/linutil/auxv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/linutil/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/linutil/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/linutil/regs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/linutil/regs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/mem.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/mem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/moduledata.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/moduledata.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/nonative_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/nonative_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/proc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/proc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/proc_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/proc_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/proc_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/proc_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/proc_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/proc_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/ptrace_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/ptrace_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/ptrace_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/ptrace_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/registers_darwin_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/registers_darwin_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/registers_linux_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/registers_linux_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/registers_windows_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/registers_windows_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/syscall_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/syscall_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/syscall_windows_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/syscall_windows_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/threads.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/threads.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/threads_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/threads_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/threads_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/threads_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/threads_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/threads_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/zsyscall_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/native/zsyscall_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc_general_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc_general_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc_linux_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc_linux_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc_unix_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/proc_unix_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/registers.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/registers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/registers_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/registers_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/scope_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/scope_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/test/support.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/test/support.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/threads.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/threads.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/variable_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/variable_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/winutil/regs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/proc/winutil/regs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/command.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/command.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/command_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/command_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/disasmprint.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/disasmprint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/docgen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/docgen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/terminal.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/terminal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/terminal_other.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/terminal_other.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/terminal_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/terminal_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/terminal_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/terminal/terminal_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/version/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/pkg/version/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/scripts/gen-cli-docs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/scripts/gen-cli-docs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/scripts/gen-opcodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/scripts/gen-opcodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/scripts/gen-usage-docs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/scripts/gen-usage-docs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/scripts/make.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/scripts/make.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/api/conversions.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/api/conversions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/api/prettyprint.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/api/prettyprint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/api/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/api/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/debugger.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/debugger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/debugger_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/debugger_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/debugger_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/debugger_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/debugger_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/debugger_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/locations.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/locations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/locations_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/debugger/locations_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/listenerpipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/listenerpipe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpc1/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpc1/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpc1/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpc1/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpc2/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpc2/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpc2/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpc2/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpccallback.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpccallback.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpccommon/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/rpccommon/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/test/common_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/test/common_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/test/integration1_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/test/integration1_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/test/integration2_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/test/integration2_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/test/variables_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/derekparker/delve/service/test/variables_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/cmd/dlv/cmds/commands.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/cmd/dlv/cmds/commands.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/cmd/dlv/dlv_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/cmd/dlv/dlv_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/cmd/dlv/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/cmd/dlv/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/config/split.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/config/split.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/config/split_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/config/split_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/dwarfbuilder/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/dwarfbuilder/builder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/dwarfbuilder/info.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/dwarfbuilder/info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/dwarfbuilder/loc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/dwarfbuilder/loc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/entries.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/entries.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/entries_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/entries_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/expression_constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/expression_constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/parser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/table.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/frame/table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/godwarf/sections.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/godwarf/sections.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/godwarf/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/godwarf/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/line/line_parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/line/line_parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/line/line_parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/line/line_parser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/line/state_machine.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/line/state_machine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/line/state_machine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/line/state_machine_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/op/op.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/op/op.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/op/op_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/op/op_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/op/opcodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/op/opcodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/op/regs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/op/regs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/reader/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/reader/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/reader/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/reader/variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/util/buf.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/util/buf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/util/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/util/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/dwarf/util/util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/goversion/go_version.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/goversion/go_version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/goversion/version_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/goversion/version_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/logflags/logflags.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/logflags/logflags.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/arch.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/arch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/bininfo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/bininfo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/breakpoints.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/breakpoints.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/core_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/core_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/linux_amd64_core.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/linux_amd64_core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/minidump/fileflags_string.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/minidump/fileflags_string.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/minidump/minidump.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/minidump/minidump.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/windows_amd64_minidump.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/core/windows_amd64_minidump.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/disasm.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/disasm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/disasm_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/disasm_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/dwarf_expr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/dwarf_expr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/eval.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/eval.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/fncall.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/fncall.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/gdbserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/gdbserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/gdbserver_conn.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/gdbserver_conn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/gdbserver_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/gdbserver_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/gdbserver_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/gdbserver_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/rr.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/rr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/rr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/gdbserial/rr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/linutil/auxv.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/linutil/auxv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/linutil/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/linutil/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/linutil/regs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/linutil/regs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/mem.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/mem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/moduledata.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/moduledata.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/nonative_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/nonative_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/proc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/proc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/proc_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/proc_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/proc_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/proc_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/proc_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/proc_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/ptrace_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/ptrace_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/ptrace_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/ptrace_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/registers_darwin_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/registers_darwin_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/registers_linux_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/registers_linux_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/registers_windows_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/registers_windows_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/syscall_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/syscall_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/syscall_windows_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/syscall_windows_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/threads.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/threads.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/threads_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/threads_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/threads_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/threads_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/threads_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/threads_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/zsyscall_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/native/zsyscall_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc_general_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc_general_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc_linux_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc_linux_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc_unix_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/proc_unix_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/registers.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/registers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/registers_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/registers_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/scope_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/scope_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/test/support.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/test/support.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/threads.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/threads.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/variable_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/variable_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/winutil/regs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/proc/winutil/regs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/command.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/command.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/command_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/command_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/disasmprint.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/disasmprint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/docgen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/docgen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/terminal.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/terminal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/terminal_other.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/terminal_other.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/terminal_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/terminal_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/terminal_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/terminal/terminal_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/version/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/pkg/version/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/scripts/gen-cli-docs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/scripts/gen-cli-docs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/scripts/gen-opcodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/scripts/gen-opcodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/scripts/gen-usage-docs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/scripts/gen-usage-docs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/scripts/make.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/scripts/make.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/api/conversions.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/api/conversions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/api/prettyprint.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/api/prettyprint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/api/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/api/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/debugger.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/debugger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/debugger_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/debugger_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/debugger_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/debugger_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/debugger_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/debugger_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/locations.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/locations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/locations_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/debugger/locations_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/listenerpipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/listenerpipe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpc1/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpc1/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpc1/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpc1/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpc2/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpc2/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpc2/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpc2/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpccallback.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpccallback.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpccommon/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/rpccommon/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/test/common_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/test/common_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/test/integration1_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/test/integration1_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/test/integration2_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/test/integration2_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/test/variables_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/go-delve/delve/service/test/variables_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ianthehat/godef/acme.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ianthehat/godef/acme.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ianthehat/godef/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ianthehat/godef/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ianthehat/godef/godef.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ianthehat/godef/godef.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ianthehat/godef/godef_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ianthehat/godef/godef_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/josharian/impl/impl.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/josharian/impl/impl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/josharian/impl/impl_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/josharian/impl/impl_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/dirent.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/dirent.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/examples/clean-empties/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/examples/clean-empties/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/examples/walk-fast/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/examples/walk-fast/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/examples/walk-stdlib/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/examples/walk-stdlib/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/readdir.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/readdir.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/readdir_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/readdir_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/readdir_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/readdir_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/readdir_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/readdir_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/scaffoling_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/scaffoling_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/walk.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/walk.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/walk_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/walk_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/withFileno.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/withFileno.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/withIno.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/withIno.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/withNamlen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/withNamlen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/withoutNamlen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/karrick/godirwalk/withoutNamlen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/lukehoban/go-outline/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/lukehoban/go-outline/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/gocode.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/gocode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/cache/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/cache/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/cache/importer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/cache/importer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/cache/samepath_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/cache/samepath_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/cache/samepath_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/cache/samepath_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/gbimporter/gbimporter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/gbimporter/gbimporter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/lookdot/lookdot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/lookdot/lookdot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/lookdot/lookdot_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/lookdot/lookdot_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/candidate.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/candidate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/cursorcontext.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/cursorcontext.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/formatters.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/formatters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/formatters_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/formatters_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/stdlib.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/stdlib.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/suggest.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/suggest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/suggest_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/internal/suggest/suggest_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/os_posix.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/os_posix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/os_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/os_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mdempsky/gocode/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/newhook/go-symbols/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/newhook/go-symbols/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/pkg/errors/bench_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/pkg/errors/bench_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/pkg/errors/errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/pkg/errors/errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/pkg/errors/errors_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/pkg/errors/errors_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/pkg/errors/example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/pkg/errors/example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/pkg/errors/format_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/pkg/errors/format_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/pkg/errors/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/pkg/errors/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/pkg/errors/stack_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/pkg/errors/stack_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/acme.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/acme.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/adapt.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/adapt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/ast.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/ast.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/print.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/print.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/print_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/print_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/resolve.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/resolve.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/scope.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/scope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/walk.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/ast/walk.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/parser/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/parser/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/parser/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/parser/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/parser/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/parser/parser_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/parser/universe.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/parser/universe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/printer/nodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/printer/nodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/printer/performance_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/printer/performance_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/printer/printer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/printer/printer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/printer/printer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/printer/printer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/scanner/errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/scanner/errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/scanner/scanner.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/scanner/scanner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/scanner/scanner_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/scanner/scanner_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/sym/sym.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/sym/sym.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/token/position.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/token/position.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/token/position_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/token/position_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/token/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/token/token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/types/goodarch.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/types/goodarch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/types/objpos.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/types/objpos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/types/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/types/types_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/go/types/types_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/godef.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/godef.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/godef_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/godef_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/packages.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/rogpeppe/godef/packages.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/sqs/goreturns/goreturns.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/sqs/goreturns/goreturns.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/sqs/goreturns/returns/fix.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/sqs/goreturns/returns/fix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/sqs/goreturns/returns/fix_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/sqs/goreturns/returns/fix_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/sqs/goreturns/returns/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/sqs/goreturns/returns/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/sqs/goreturns/returns/returns.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/sqs/goreturns/returns/returns.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/gocode.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/gocode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/lookdot/lookdot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/lookdot/lookdot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/lookdot/lookdot_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/lookdot/lookdot_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/candidate.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/candidate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/cursorcontext.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/cursorcontext.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/formatters.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/formatters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/formatters_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/formatters_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/suggest.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/suggest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/suggest_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/internal/suggest/suggest_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/os_posix.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/os_posix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/os_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/os_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/stamblerre/gocode/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/cmd/gopkgs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/cmd/gopkgs/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/gopkgs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/gopkgs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/gopkgs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/gopkgs_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/vendor.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/vendor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/vendor_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/uudashr/gopkgs/vendor_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/golang.org/x/tools/godoc/corpus.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/golang.org/x/tools/godoc/corpus.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,16 +406,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="-969">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -81,10 +460,11 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,13 +520,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="152">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>

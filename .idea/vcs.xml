@@ -2,5 +2,23 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/bytbox/golint" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/cweill/gotests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/derekparker/delve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/go-delve/delve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/golang/tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/ianthehat/godef" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/josharian/impl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/karrick/godirwalk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/lukehoban/go-outline" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/mcc321/go" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/mdempsky/gocode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/newhook/go-symbols" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/pkg/errors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/rogpeppe/godef" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/sqs/goreturns" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/stamblerre/gocode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/uudashr/gopkgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/tools" vcs="Git" />
   </component>
 </project>
