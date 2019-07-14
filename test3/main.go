@@ -152,7 +152,32 @@
 package main
 
 import "fmt"
+func mcc(n int)int{
+	if n<=0 {
+		return 0}
+	if n==1 ||n==2{
+		return 1
+	}else{
+		return mcc(n-1)+mcc(n-2)
+	}
 
+}
+
+//递归问题
+func houzi(day int)int{
+	if day>10||day<1{
+		fmt.Print("输入不对")
+		return 0
+	}
+	if day==10{
+		return 1
+	}else{
+		return (houzi(day+1)+1)*2
+	}
+}
 func main(){
-	fmt.Print("mcc")
+	fmt.Print("mcc:")
+	fmt.Print(mcc(20))
+	fmt.Print("\n")
+	fmt.Print("最初的桃子数：",houzi(1))
 }
