@@ -1,5 +1,0 @@
-mmc
-sss
-tch
-zsh
-
